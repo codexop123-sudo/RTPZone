@@ -1,0 +1,16 @@
+name: RTPZone
+version: '1.0'
+main: me.rtpzone.RTPZone
+api-version: '26.3'
+description: Marks areas that randomly teleport players who stand in them.
+commands:
+  setzone:
+    description: Gives the zone-selection wooden hoe.
+    permission: rtpzone.admin
+  setrtpzone:
+    description: Saves the currently selected area as an RTP zone.
+    permission: rtpzone.admin
+permissions:
+  rtpzone.admin:
+    description: Allows creating and managing RTP zones.
+    default: op

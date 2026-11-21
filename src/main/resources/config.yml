@@ -1,0 +1,16 @@
+# How far (in blocks) from the destination world's spawn point a random
+# teleport location can be picked.
+radius: 500
+
+multiverse:
+  # If the Multiverse-Core plugin is installed AND this is set to the exact
+  # name of a world that actually exists, every RTP zone (no matter which
+  # world it was created in) will teleport players into THIS world instead.
+  #
+  # If Multiverse-Core is installed but this name does not match any real
+  # world, players will NOT be teleported at all, and a warning is printed
+  # in the console so you know to fix this.
+  #
+  # Leave this blank ("") to turn this off. Each zone will then teleport
+  # players within its own world, as normal.
+  world: ""
